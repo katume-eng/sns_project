@@ -1,0 +1,28 @@
+# 仮想環境フォルダ
+/venv/
+
+# Pythonが生成するキャッシュファイル
+*.pyc
+__pycache__/
+
+# SQLiteデータベースファイル
+db.sqlite3
+
+# メディアアップロード用のファイル（必要に応じて）
+/media/
+
+# ログファイル
+*.log
+
+# Djangoの環境変数ファイル
+.env
+
+# VSCode設定（必要なら除外）
+.vscode/
+
+# その他OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# パッケージ
+requirements.txt
